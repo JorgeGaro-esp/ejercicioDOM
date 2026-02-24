@@ -31,3 +31,22 @@ function obtenerHora() {
 
     document.getElementById("reloj").innerHTML = h + ":" + m + ":" + s;
 }
+
+/*Retos
+
+function obtenerHora() {
+
+let fecha = new Date();
+
+let h = formatear(fecha.getHours());
+let m = formatear(fecha.getMinutes());
+let s = formatear(fecha.getSeconds());
+
+document.getElementById("reloj").innerHTML = h + ":" + m + ":" + s;
+}
+
+function formatear(valor) { 
+return valor < 10 ? "0" + valor : valor; 
+}
+
+*/
